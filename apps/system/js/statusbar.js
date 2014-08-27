@@ -753,6 +753,7 @@ var StatusBar = {
       }
 
       var icon = this.icons.battery;
+      icon.innerHTML = '<span>' + Math.round(battery.level * 100) +'%</span>';
 
       icon.dataset.charging = battery.charging;
       var level = Math.floor(battery.level * 10) * 10;

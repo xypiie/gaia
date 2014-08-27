@@ -138,6 +138,16 @@ body .utility-tray .statusbar > .sb-start {
   font-size: 1.1rem;
 }
 
+#statusbar-battery span {
+  margin: 0;
+  position: relative;
+  bottom: -0.2rem;
+  left: 0.1rem;
+  font-size: 1.0rem;
+  color: #000000;
+  text-shadow: 0 0 0.1rem #ffffff;
+}
+
 /* signal and data icons */
 #statusbar-connections {
   margin: 0;
